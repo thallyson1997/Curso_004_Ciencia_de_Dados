@@ -11,7 +11,11 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
+<<<<<<< HEAD
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 40');
+=======
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+>>>>>>> parent of 528c010 (Alterando limite para 100)
 }
 
 exibirMensagemInicial();
